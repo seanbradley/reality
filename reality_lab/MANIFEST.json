@@ -1,0 +1,233 @@
+{
+  "status": {
+    "release": "development-2026-11-25",
+    "python_tested": "3.12.14",
+    "tiktoken_version": "0.14.0",
+    "software_tests_passed": 21,
+    "ruff_checks": "passed",
+    "live_model_calls": 0,
+    "status": "development_data_and_static_measurements_only",
+    "primary_request_plan": {
+      "compressor": 72,
+      "readers_per_family": 432
+    },
+    "small_request_plan": {
+      "compressor": 18,
+      "readers_per_family": 126
+    },
+    "independent_review": "pending",
+    "held_out_confirmation": "not_run"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 10297,
+      "sha256": "f88f7d2eb135567debd26934e74c9972080feae2190209e0973865ce952a5ab8"
+    },
+    {
+      "path": "WORLDVIEW_RUBRIC.md",
+      "bytes": 4151,
+      "sha256": "49ce2534ebc6806a22c84eae1b98811816c578fb87f9058e25bc5ed2f4d0ac64"
+    },
+    {
+      "path": "build_cases.py",
+      "bytes": 20757,
+      "sha256": "0fd7897fe646afdd1c124e75be0b14cde49b42f230ddc3da2fedf4e343b83cac"
+    },
+    {
+      "path": "build_worked_example.py",
+      "bytes": 1643,
+      "sha256": "d6b417d6caf4525f26feac18e5e01044e81d8f903154005e6c7b9b69744978ea"
+    },
+    {
+      "path": "build_worldview_bank.py",
+      "bytes": 7013,
+      "sha256": "77ec9b2080ec517fbabd5d98c20b8dcb277130943a3e8ae7fc1ff900b02eb2a4"
+    },
+    {
+      "path": "core.py",
+      "bytes": 6510,
+      "sha256": "be9c7f1e9df16fcc677e580b02d0ea9e3bc59d45120df7af74a777b893ac5bdb"
+    },
+    {
+      "path": "data/historical_measurements.json",
+      "bytes": 5195,
+      "sha256": "32dd6cb215fa663179ec5a812012e289440f066acfbdc8cb6a4cb3be45a3f37d"
+    },
+    {
+      "path": "data/questions_gold.jsonl",
+      "bytes": 18169,
+      "sha256": "750404e369239a4512fe72ce7625f1a50289a8a449ee9f2a0ab3b5c572011e8d"
+    },
+    {
+      "path": "data/sources.jsonl",
+      "bytes": 40512,
+      "sha256": "6b5c35a11c04468bcd712048845493762cab8081a1d1dd4c6dce27c877881557"
+    },
+    {
+      "path": "data/worldview_archive_gold.jsonl",
+      "bytes": 818804,
+      "sha256": "be1482f1aa91b1257686367a0920652dd98463d6ffade05cd9cfd71f34b02133"
+    },
+    {
+      "path": "data/worldview_review_template.csv",
+      "bytes": 174,
+      "sha256": "37aaec839edff3c015b25637b332e28976bbbc8b9f4616bb2782be1eefc955a6"
+    },
+    {
+      "path": "documents/Reality_Paper_Draft.md",
+      "bytes": 17323,
+      "sha256": "cc85c171e9355b3b188a11a53a7e76be318219915f918d278b2f88bc41d062e7"
+    },
+    {
+      "path": "documents/Reality_Pilot_Report.md",
+      "bytes": 8442,
+      "sha256": "972214bf5a768875ffc4eb5b4c64b611cc588d195de2c51f6abfd1d14d712d8a"
+    },
+    {
+      "path": "documents/Reality_Project_Findings.md",
+      "bytes": 53121,
+      "sha256": "243df060882f96c5881ba07d9280cd9b167907a5acf34b698c07da66b66519dc"
+    },
+    {
+      "path": "documents/Reality_Research_Plan.md",
+      "bytes": 8315,
+      "sha256": "9cc610fb316ec30f6838b9a2ee4c13f0e109ea65c1ca50683cf2ffbdd4d08ce2"
+    },
+    {
+      "path": "documents/Reality_Research_Protocol.md",
+      "bytes": 12436,
+      "sha256": "a827d608159c3d0814f455c8a89856c10f8c8e5c7084d24ff25229510d6a9d70"
+    },
+    {
+      "path": "gregg_probe.py",
+      "bytes": 4214,
+      "sha256": "156a1809cfe1d1a418aa0444882c8387308303ca0d89a641aa3e00ef4b09e565"
+    },
+    {
+      "path": "lab.py",
+      "bytes": 18573,
+      "sha256": "cacce7da4c415f1150fe24ebaf2efbfee7ea8c972b9d0d72290e157cba30b318"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 85,
+      "sha256": "a27add83b06be1b478b5a3c867ffbb6d5fe1b2db5419c51eee5dbfcfb9e1824a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 17,
+      "sha256": "284fea867700e02a5000251cf256f1dca9f4e4069196092ccf13f97af2bd4a30"
+    },
+    {
+      "path": "results/cl100k/macro_audit.csv",
+      "bytes": 551,
+      "sha256": "987a7f58ce812b7dcd55cd3778ad4a697e8ff5eb5741b726d7e61a8fccc8e898"
+    },
+    {
+      "path": "results/cl100k/macro_audit.jsonl",
+      "bytes": 2155,
+      "sha256": "656299cd77b6a12a49a1628e3d69d8841515ec2afebc4003e0c6d2965e938e67"
+    },
+    {
+      "path": "results/gregg_probe.json",
+      "bytes": 3895,
+      "sha256": "7eab7a198fae312ab1d267d2c33e4b4fcd8d0add1e32660d28db6388d548b120"
+    },
+    {
+      "path": "results/o200k/macro_audit.csv",
+      "bytes": 538,
+      "sha256": "d6676241a111c2734e5d5f76057c64adb58c06a91c59f1de76bbec664406506c"
+    },
+    {
+      "path": "results/o200k/macro_audit.jsonl",
+      "bytes": 2142,
+      "sha256": "6d9913ab0250b9b0b82949a9bab027bc78223e858f89f8ea77cb5a7f1cb4957d"
+    },
+    {
+      "path": "results/pilot/compressor_jobs.jsonl",
+      "bytes": 174318,
+      "sha256": "987c983b78a1729e225cb5569cf9c48480411e3700b191f93ca278ce9060a5d2"
+    },
+    {
+      "path": "results/pilot/evaluation_slots.jsonl",
+      "bytes": 46260,
+      "sha256": "fdd501f69f5faa63441d1ea9c540d73efd127e919c383f8bee518ad235393853"
+    },
+    {
+      "path": "results/pilot/manifest.json",
+      "bytes": 743,
+      "sha256": "6978c6665712d40568c5d7637dfedf1e9baadbfc8b3c57d1685195a4999819e9"
+    },
+    {
+      "path": "results/pilot/reader_jobs.jsonl",
+      "bytes": 425622,
+      "sha256": "b7c54eba9bacaf3766a95692498360fbe02a2f7b57786adc85e6ec4d91db122e"
+    },
+    {
+      "path": "results/pilot/reader_scores.json",
+      "bytes": 4973,
+      "sha256": "d61e6138af305a8404a42e710cded2c698a7789870fec787a5a40f21ccd218ce"
+    },
+    {
+      "path": "results/release_status.json",
+      "bytes": 489,
+      "sha256": "1650fc3634e90779a1677cc504cc7bf812e70a07d7f0902aec692db6654254d9"
+    },
+    {
+      "path": "results/smoke/compressor_jobs.jsonl",
+      "bytes": 33258,
+      "sha256": "cf46e46b40a47fb00538020086aa547e2fe5de7d150d0162ad04462bc1603fa6"
+    },
+    {
+      "path": "results/smoke/evaluation_slots.jsonl",
+      "bytes": 13410,
+      "sha256": "c9fa637fc00f3ba4bf778811de8be31c5186044b0baf93737520fbefc63d3690"
+    },
+    {
+      "path": "results/smoke/manifest.json",
+      "bytes": 664,
+      "sha256": "8b0ee7cbe633b71ba37e64dfd6c0c15043291ab4c07e7efadd1edfb9999a5621"
+    },
+    {
+      "path": "results/smoke/reader_jobs.jsonl",
+      "bytes": 111780,
+      "sha256": "2b695943459fd0e93f497c47a1bfa2f540191aae58c0da75957ea0bad0ae8ef5"
+    },
+    {
+      "path": "results/smoke/runner_dry_run.json",
+      "bytes": 276,
+      "sha256": "ec1038370f749fb785436ca018f48aed8ce7557b2df2f1aa5c1c7571eb2afc58"
+    },
+    {
+      "path": "results/validation.txt",
+      "bytes": 2557,
+      "sha256": "dfbb5427f2f04dde725d642709f1a29afd4da240b3aeb434ad3b6f7afa094f0f"
+    },
+    {
+      "path": "results/worked_example/reader_jobs.jsonl",
+      "bytes": 31356,
+      "sha256": "3a0a508da5695c994900c5fd90206cfd297b7e6d24a45293a5484868547997e0"
+    },
+    {
+      "path": "results/worldview_reader_jobs.jsonl",
+      "bytes": 2413482,
+      "sha256": "6b89a3a2b9f41f1a8ac5fc5d8b9c848901f0208ebd16151b8faa06c7ec9beedc"
+    },
+    {
+      "path": "run_openai.py",
+      "bytes": 8939,
+      "sha256": "4c309c7ab6dcb7c257af79ff5b82e8168cb4094b03c11f654e9c4fe18ebebc08"
+    },
+    {
+      "path": "tests/test_artifacts.py",
+      "bytes": 2766,
+      "sha256": "8cb5ea43c234dc4e2a7ea7a674b3784787fcced20418cd77c4223500b1b35c66"
+    },
+    {
+      "path": "tests/test_lab.py",
+      "bytes": 7892,
+      "sha256": "5089dd8cbc5f79ad705170265a6bf04c9e043585dd5085ca2661c42114fb502e"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mode": "dry_run",
+  "pending_requests": 6,
+  "requested_model": "UNCONFIGURED",
+  "settings": {},
+  "text_input_tokens": 1956,
+  "max_output_tokens": 12288,
+  "billing_note": "Estimates require current prices and a matching tokenizer; provider framing is approximate."
+}

@@ -1,0 +1,13 @@
+case_id,encoding,source_tokens,encoded_tokens_including_decoder,dictionary_keys,saving_percent,exact_roundtrip
+R01,cl100k_base,451,451,0,0.0,True
+R02,cl100k_base,386,386,0,0.0,True
+R03,cl100k_base,510,510,0,0.0,True
+R04,cl100k_base,280,280,0,0.0,True
+R05,cl100k_base,1287,1238,6,3.8073038073038075,True
+R06,cl100k_base,155,155,0,0.0,True
+S01,cl100k_base,104,104,0,0.0,True
+S02,cl100k_base,90,90,0,0.0,True
+W01,cl100k_base,77,77,0,0.0,True
+W02,cl100k_base,79,79,0,0.0,True
+A01,cl100k_base,79,79,0,0.0,True
+A02,cl100k_base,78,78,0,0.0,True

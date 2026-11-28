@@ -1,0 +1,27 @@
+{
+  "status": "prepared_not_run",
+  "encoding": "o200k_base",
+  "case_ids": [
+    "R01",
+    "R04",
+    "S01",
+    "W01",
+    "A01",
+    "A02"
+  ],
+  "fractions": [
+    0.5
+  ],
+  "reader_repeats": 1,
+  "compressor_requests": 18,
+  "reader_requests_prepared": 72,
+  "reader_evaluations_planned": 126,
+  "accepted_compressions": 0,
+  "rejected_compressions": [],
+  "missing_compressor_outputs": 18,
+  "reader_text_input_tokens": 13311,
+  "reader_max_output_tokens": 147456,
+  "compressor_text_input_tokens": 4464,
+  "compressor_max_output_tokens": 36864,
+  "estimand": "Development task accuracy at fixed context-payload budgets with identical question framing."
+}

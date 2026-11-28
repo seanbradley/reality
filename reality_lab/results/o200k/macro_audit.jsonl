@@ -1,0 +1,12 @@
+{"case_id": "R01", "encoding": "o200k_base", "source_tokens": 450, "encoded_tokens_including_decoder": 450, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "R02", "encoding": "o200k_base", "source_tokens": 383, "encoded_tokens_including_decoder": 383, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "R03", "encoding": "o200k_base", "source_tokens": 504, "encoded_tokens_including_decoder": 504, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "R04", "encoding": "o200k_base", "source_tokens": 281, "encoded_tokens_including_decoder": 281, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "R05", "encoding": "o200k_base", "source_tokens": 1309, "encoded_tokens_including_decoder": 1258, "dictionary_keys": 6, "saving_percent": 3.896103896103896, "exact_roundtrip": true}
+{"case_id": "R06", "encoding": "o200k_base", "source_tokens": 153, "encoded_tokens_including_decoder": 153, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "S01", "encoding": "o200k_base", "source_tokens": 104, "encoded_tokens_including_decoder": 104, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "S02", "encoding": "o200k_base", "source_tokens": 92, "encoded_tokens_including_decoder": 92, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "W01", "encoding": "o200k_base", "source_tokens": 76, "encoded_tokens_including_decoder": 76, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "W02", "encoding": "o200k_base", "source_tokens": 79, "encoded_tokens_including_decoder": 79, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "A01", "encoding": "o200k_base", "source_tokens": 78, "encoded_tokens_including_decoder": 78, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}
+{"case_id": "A02", "encoding": "o200k_base", "source_tokens": 75, "encoded_tokens_including_decoder": 75, "dictionary_keys": 0, "saving_percent": 0.0, "exact_roundtrip": true}

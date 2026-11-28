@@ -1,0 +1,26 @@
+test_all_development_sources_roundtrip_without_expansion (test_artifacts.ArtifactTests.test_all_development_sources_roundtrip_without_expansion) ... ok
+test_disambiguated_gregg_and_control_are_reversible (test_artifacts.ArtifactTests.test_disambiguated_gregg_and_control_are_reversible) ... ok
+test_gregg_collision_is_reproducible (test_artifacts.ArtifactTests.test_gregg_collision_is_reproducible) ... ok
+test_historical_token_measurements_reproduce (test_artifacts.ArtifactTests.test_historical_token_measurements_reproduce) ... ok
+test_replay_payloads_exclude_the_target_archived_answer (test_artifacts.ArtifactTests.test_replay_payloads_exclude_the_target_archived_answer) ... ok
+test_answer_schema_is_strict (test_lab.PilotTests.test_answer_schema_is_strict) ... ok
+test_api_payload_is_isolated_and_does_not_include_gold (test_lab.PilotTests.test_api_payload_is_isolated_and_does_not_include_gold) ... ok
+test_dictionary_is_not_recursive (test_lab.PilotTests.test_dictionary_is_not_recursive) ... ok
+test_duplicate_and_wrong_hash_rejected (test_lab.PilotTests.test_duplicate_and_wrong_hash_rejected) ... ok
+test_extractive_budget (test_lab.PilotTests.test_extractive_budget) ... ok
+test_failed_compressions_remain_in_evaluation_denominator (test_lab.PilotTests.test_failed_compressions_remain_in_evaluation_denominator) ... ok
+test_hash_is_sensitive_to_qualification (test_lab.PilotTests.test_hash_is_sensitive_to_qualification) ... ok
+test_missing_is_not_a_model_result (test_lab.PilotTests.test_missing_is_not_a_model_result) ... ok
+test_no_test_questions_in_compressor_requests (test_lab.PilotTests.test_no_test_questions_in_compressor_requests) ... ok
+test_oversized_compressor_is_rejected_without_truncation (test_lab.PilotTests.test_oversized_compressor_is_rejected_without_truncation) ... ok
+test_positive_repetition_control (test_lab.PilotTests.test_positive_repetition_control) ... ok
+test_roundtrip_unicode_and_delimiters (test_lab.PilotTests.test_roundtrip_unicode_and_delimiters) ... ok
+test_source_spans_and_hashes (test_lab.PilotTests.test_source_spans_and_hashes) ... ok
+test_unicode_head_is_a_prefix_within_budget (test_lab.PilotTests.test_unicode_head_is_a_prefix_within_budget) ... ok
+test_visible_text_extraction_ignores_reasoning (test_lab.PilotTests.test_visible_text_extraction_ignores_reasoning) ... ok
+test_wrong_answer_and_invalid_json_are_penalized (test_lab.PilotTests.test_wrong_answer_and_invalid_json_are_penalized) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.965s
+
+OK

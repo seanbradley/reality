@@ -1,0 +1,19 @@
+{
+  "release": "development-2026-11-25",
+  "python_tested": "3.12.14",
+  "tiktoken_version": "0.14.0",
+  "software_tests_passed": 21,
+  "ruff_checks": "passed",
+  "live_model_calls": 0,
+  "status": "development_data_and_static_measurements_only",
+  "primary_request_plan": {
+    "compressor": 72,
+    "readers_per_family": 432
+  },
+  "small_request_plan": {
+    "compressor": 18,
+    "readers_per_family": 126
+  },
+  "independent_review": "pending",
+  "held_out_confirmation": "not_run"
+}

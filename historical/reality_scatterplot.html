@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Scatter Plot</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<style>
+	  body, html, #plot {
+		height: 100%;
+		width: 100%;
+		margin: 0;
+	  }
+	</style>
+</head>
+<body>
+  <div id="plot"></div>
+  <script>
+	  
+	const categories = [
+	  // Add your categories here in the format { value: number, label: 'Category' }
+	  { value: 1, label: 'Classical Physics' },
+	  { value: 2, label: 'Heliocentric Models' },
+	  { value: 3, label: 'Relativity' },
+	  { value: 4, label: 'Quantum Physics' },
+	  { value: 5, label: 'String/M-Theory' },
+	  { value: 6, label: 'Loop Quantum Gravity' },
+	  { value: 7, label: 'Geometry and Topology' },
+	  { value: 8, label: 'Geometric Unification' },
+	  { value: 9, label: 'Computational Models' },
+	  { value: 10, label: 'Simulated Reality' },
+	  { value: 11, label: 'Theories of Consciousness' },
+	  { value: 12, label: 'Perception and Reality' },
+	  { value: 13, label: 'Unified Models' },
+	  { value: 14, label: 'Ancient Cosmologies' },
+	  { value: 15, label: 'Disproven Models' },
+	  { value: 16, label: 'Future Models' }
+	];
+
+	const data = [
+	  // Add your data points here in the format { x: category, y: date, z: index, label: 'Theory' }
+	  { x: 1, y: 1687, z: 1, label: 'Newtonian Physics' },
+	  { x: 2, y: 1543, z: 2, label: 'Heliocentric Model' },
+	  { x: 3, y: 1915, z: 3, label: 'General Relativity' },
+	  { x: 4, y: 1925, z: 4, label: 'Quantum Mechanics' },
+	  { x: 5, y: 1968, z: 5, label: 'String Theory' },
+	  { x: 5, y: 1995, z: 6, label: 'M-Theory' },
+	  { x: 6, y: 1986, z: 7, label: 'Loop Quantum Gravity' },
+	  { x: 7, y: 1931, z: 8, label: 'Hopf Fibration' },
+	  { x: 8, y: 2007, z: 9, label: 'E8 Lattice' },
+	  { x: 8, y: 2013, z: 10, label: 'Cosmological Polytope' },
+	  { x: 9, y: 1948, z: 11, label: 'Cellular Automata' },
+	  { x: 9, y: 2020, z: 12, label: 'Ruliad' },
+	  { x: 10, y: 2003, z: 13, label: 'Simulation Theory' },
+	  { x: 11, y: 1641, z: 14, label: 'Cartesian Dualism' },
+	  { x: 11, y: 2004, z: 15, label: 'Integrated Information Theory' },
+	  { x: 12, y: 2015, z: 16, label: 'User Interface Metaphor' },
+	  { x: 13, y: 2002, z: 17, label: 'Cognitive-Theoretic Model' },
+	  { x: 14, y: -10000, z: 18, label: 'Animism' },
+	  { x: 14, y: -600, z: 19, label: 'Zoroastrian Cosmology' },
+	  { x: 14, y: -1500, z: 20, label: 'Hindu Cosmology' },
+	  { x: 14, y: 0, z: 21, label: 'Mythologies' },
+	  { x: 14, y: -900, z: 22, label: 'Jainism' },
+	  { x: 14, y: -600, z: 23, label: 'Buddhism' },
+	  { x: 14, y: -2000, z: 24, label: 'Abrahamic Religions' },
+	  { x: 15, y: -600, z: 25, label: 'Geocentric Model' },
+	  { x: 15, y: -2500, z: 26, label: 'Flat Earth Model' },
+	  { x: 16, y: 2030, z: 13, label: 'Quantum Gravity' },
+	  { x: 16, y: 2030, z: 13, label: 'Emergent Models' },
+	  { x: 16, y: 2030, z: 13, label: 'Holographic Principle' },
+	  { x: 16, y: 2030, z: 13, label: 'Multiverse Models' },
+	  { x: 16, y: 2030, z: 13, label: 'AI-assisted' },
+	];
+
+	const markerSize = 4;
+		const axisRange = {
+		  xaxis: { range: [,] },
+		  yaxis: { range: [2100, -10000] },
+		  zaxis: { range: [0, 30] }
+		};
+
+		const cameraPosition = {
+		  eye: { x: 0.5, y: 0.5, z: 2 },
+		  center: { x: 0, y: 0, z: 0 },
+		  up: { x: 2, y: 4, z: 2 }
+		};
+
+		const trace1 = {
+		  x: data.map(d => d.x),
+		  y: data.map(d => d.y),
+		  z: data.map(d => d.z),
+		  mode: 'markers',
+		  marker: {
+			size: markerSize,
+			sizemode: 'diameter'
+		  },
+		  text: data.map(d => d.label),
+		  type: 'scatter3d'
+		};
+
+    const layout = {
+      title: 'MODELS OF REALITY -- 10,000 BC TO 2030 AD',
+      scene: {
+        xaxis: {
+          title: '',
+          ticktext: categories.map(c => c.label),
+          tickvals: categories.map(c => c.value),
+          ...axisRange.xaxis
+        },
+        yaxis: {
+          title: 'Year',
+          ...axisRange.yaxis
+        },
+        zaxis: {
+          title: 'Whackiness',
+          ...axisRange.zaxis
+        },
+        camera: cameraPosition,
+      }
+    };
+
+  const config = { responsive: true };
+
+    Plotly.newPlot('plot', [trace1], layout, config);
+  </script>
+</body>
+</html>

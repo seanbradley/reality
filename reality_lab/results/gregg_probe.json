@@ -1,0 +1,160 @@
+{
+  "status": "mechanical_probe_no_reader_calls",
+  "chart_source": "https://greggshorthand.github.io/preanbfs.html",
+  "method": "Ten-word verified subset with an experimental text serialization, not full Gregg shorthand.",
+  "mapping": {
+    "have": "v",
+    "in": "n",
+    "not": "n",
+    "it": "t",
+    "at": "t",
+    "for": "f",
+    "from": "fm",
+    "form": "fm",
+    "be": "b",
+    "but": "b"
+  },
+  "collisions": {
+    "fm": [
+      "from",
+      "form"
+    ],
+    "t": [
+      "it",
+      "at"
+    ],
+    "n": [
+      "in",
+      "not"
+    ],
+    "b": [
+      "be",
+      "but"
+    ]
+  },
+  "minimal_pair": {
+    "sources": [
+      "They are in.",
+      "They are not."
+    ],
+    "encoded": [
+      "They are n.",
+      "They are n."
+    ]
+  },
+  "measurements": [
+    {
+      "source": "historical_image_prompt",
+      "variant": "original",
+      "encoding": "cl100k_base",
+      "tokens": 255,
+      "characters": 1199
+    },
+    {
+      "source": "historical_image_prompt",
+      "variant": "plain_gregg_subset_no_decoder",
+      "encoding": "cl100k_base",
+      "tokens": 255,
+      "characters": 1196
+    },
+    {
+      "source": "historical_image_prompt",
+      "variant": "marked_gregg_subset_with_decoder",
+      "encoding": "cl100k_base",
+      "tokens": 295,
+      "characters": 1326
+    },
+    {
+      "source": "historical_image_prompt",
+      "variant": "arbitrary_permuted_keys_with_decoder",
+      "encoding": "cl100k_base",
+      "tokens": 295,
+      "characters": 1326
+    },
+    {
+      "source": "historical_image_prompt",
+      "variant": "original",
+      "encoding": "o200k_base",
+      "tokens": 256,
+      "characters": 1199
+    },
+    {
+      "source": "historical_image_prompt",
+      "variant": "plain_gregg_subset_no_decoder",
+      "encoding": "o200k_base",
+      "tokens": 256,
+      "characters": 1196
+    },
+    {
+      "source": "historical_image_prompt",
+      "variant": "marked_gregg_subset_with_decoder",
+      "encoding": "o200k_base",
+      "tokens": 295,
+      "characters": 1326
+    },
+    {
+      "source": "historical_image_prompt",
+      "variant": "arbitrary_permuted_keys_with_decoder",
+      "encoding": "o200k_base",
+      "tokens": 295,
+      "characters": 1326
+    },
+    {
+      "source": "synthetic_function_word_probe",
+      "variant": "original",
+      "encoding": "cl100k_base",
+      "tokens": 50,
+      "characters": 213
+    },
+    {
+      "source": "synthetic_function_word_probe",
+      "variant": "plain_gregg_subset_no_decoder",
+      "encoding": "cl100k_base",
+      "tokens": 50,
+      "characters": 185
+    },
+    {
+      "source": "synthetic_function_word_probe",
+      "variant": "marked_gregg_subset_with_decoder",
+      "encoding": "cl100k_base",
+      "tokens": 191,
+      "characters": 464
+    },
+    {
+      "source": "synthetic_function_word_probe",
+      "variant": "arbitrary_permuted_keys_with_decoder",
+      "encoding": "cl100k_base",
+      "tokens": 191,
+      "characters": 463
+    },
+    {
+      "source": "synthetic_function_word_probe",
+      "variant": "original",
+      "encoding": "o200k_base",
+      "tokens": 50,
+      "characters": 213
+    },
+    {
+      "source": "synthetic_function_word_probe",
+      "variant": "plain_gregg_subset_no_decoder",
+      "encoding": "o200k_base",
+      "tokens": 50,
+      "characters": 185
+    },
+    {
+      "source": "synthetic_function_word_probe",
+      "variant": "marked_gregg_subset_with_decoder",
+      "encoding": "o200k_base",
+      "tokens": 190,
+      "characters": 464
+    },
+    {
+      "source": "synthetic_function_word_probe",
+      "variant": "arbitrary_permuted_keys_with_decoder",
+      "encoding": "o200k_base",
+      "tokens": 190,
+      "characters": 463
+    }
+  ],
+  "limits": "Unmarked tokens omit decoder costs and are ambiguous; marked conditions are reversible software codecs. No matched-budget reader-performance result exists."
+}

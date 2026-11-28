@@ -1,0 +1,45 @@
+{
+  "status": "Static token measurements only; no model inference or semantic-performance experiment.",
+  "tokenizer_version": "0.14.0",
+  "candidate_authorship": "Manually constructed by the assistant on 2026-11-24; not an automated compressor output.",
+  "candidate_source": "P2-M457",
+  "measurements": [
+    {
+      "representation": "original",
+      "characters": 1199,
+      "cl100k_base": 255,
+      "o200k_base": 256
+    },
+    {
+      "representation": "historical_abbreviation",
+      "characters": 723,
+      "cl100k_base": 350,
+      "o200k_base": 351
+    },
+    {
+      "representation": "published_dictionary",
+      "characters": 602,
+      "cl100k_base": 262,
+      "o200k_base": 259
+    },
+    {
+      "representation": "published_reconstruction",
+      "characters": 604,
+      "cl100k_base": 138,
+      "o200k_base": 136
+    },
+    {
+      "representation": "structured_candidate",
+      "characters": 825,
+      "cl100k_base": 186,
+      "o200k_base": 185
+    }
+  ],
+  "strings": {
+    "original": "A highly detailed and photorealistic multi-dimensional semi-translucent cosmological polytope and Wolfram ruliad and and Tibetan mandala and alien logogram hybrid manifesting the abstract concepts of Interconnectedness, Hierarchical Organization, Evolution and Adaptability, and Subjectivity and Objectivity. Place the image on its axis at a tilt to imply dynamism; create a light source from behind the object to imply depth as well as to create a glow...akin to a galaxy or a quantum level event. Information is a dodecahedron; Interconnectedness is a torus; Hierarchical Organization is a fractal tree; Evolution and Adaptability is a DNA Helix; Subjectivity and Objectivity is Yin-Yang. Inside Information: Quantum Mechanics (Cube), and the Holographic Principal (hologram). Inside Interconnectedness: Quantum Entanglement (Interlocking spheres) and Synchronicity (Two Arrows). Inside Hierarchical Organization: String Theory (Vibrating String) and Complex Systems Theory (Network). Inside Evolution and Adaptability: Natural Selection (Tree of Life) and Neural Plasticity (Brain). Inside Subjectivity and Objectivity: Panpsychism (Eye) and the Copenhagen Interpretation (Wave-Particle Duality).",
+    "historical_abbreviation": "Hghly dtld+phtrlstc mlt-dmnsnl sm-trnslcnt csmlogcl plytp+Wlfrm rlid+Tbtn mndl+ln lggrm hybrd mnfstng bstrct cnpts: Intrcnctd, Hrrchcl Orgnztn, Evltn+Adptblty, Sbjctvty+Objctvty. Plc img n its axis>tlt>impl dynmsm; cr8 lght src>bhnd objct>impl dpth+glow, akn>glxy/qntm lvl vnt. Nfrmt=ddcdhrn; Intrcnctd=trs; Hrrchcl Orgnztn=frctl tree; Evltn+Adptblty=DNA Hlx; Sbjctvty+Objctvty=Yin-Yang. Insd Nfrmtn: Qntm Mchns (Cub)+Hlgrphc Prncpl (hlgrm). Insd Intrcnctd: Qntm Entnglmnt (Intrlckng sphrs)+Syncrncity (2 Arrws). Insd Hrrchcl Orgnztn: Strng Thry (Vbrtng Strng)+Cmplx Systms Thry (Ntwrk). Insd Evltn+Adptblty: Ntrl Slctn (Tree f Lf)+Nrl Plstcty (Brn). Insd Sbjctvty+Objctvty: Pnpsychsm (Ey)+Cpnggn Intrprttn (Wv-Prtcl Dlty).",
+    "published_dictionary": "{\"01\":\"Mltdmnsnl\",\"02\":\"Intrcnctdnss\",\"03\":\"HrrchlOrgnztn\",\"04\":\"Evltn&Adptblty\",\"05\":\"Sbjctvty&Objctvty\",\"06\":\"QntmMchncs\",\"07\":\"HlgrphcPrncpl\",\"08\":\"QntmEntnglmnt\",\"09\":\"Snchrncty\",\"10\":\"StrngThry\",\"11\":\"CmplxSystmsThry\",\"12\":\"NtrlSlctn\",\"13\":\"NrlPlstcty\",\"14\":\"Pnpsychsm\",\"15\":\"CphgnIntrprttn\",\"16\":\"TltImg\",\"17\":\"AddBcklghtFrDpth\",\"18\":\"Glctc/QntmGlw\"}^Cr8Lflik01CosmicPolytopeShowing02(Torus),03(FractalTree),04(DNAHelix),05(YinYang).Include06(Cube),07(Hologram),08(InterlockingSpheres),09(2Arrows),10(VibratingString),11(Network),12(TreeOfLife),13(Brain),14(Eye),15(Wave-ParticleDuality).16&17&18",
+    "published_reconstruction": "Create Life-like Multidimensional Cosmic Polytope Showing Interconnectedness (Torus), Hierarchical Organization (Fractal Tree), Evolution & Adaptability (DNA Helix), Subjectivity & Objectivity (Yin-Yang). Include Quantum Mechanics (Cube), Holographic Principle (Hologram), Quantum Entanglement (Interlocking Spheres), Synchronicity (2 Arrows), String Theory (Vibrating String), Complex Systems Theory (Network), Natural Selection (Tree Of Life), Neural Plasticity (Brain), Panpsychism (Eye), Copenhagen Interpretation (Wave-Particle Duality). Tilt Image & Add Backlight For Depth & Galactic/Quantum Glow.",
+    "structured_candidate": "Photorealistic, highly detailed, multidimensional, semi-translucent hybrid: cosmological polytope + Wolfram ruliad + Tibetan mandala + alien logogram.\nTilt its axis for dynamism; backlight for depth and a galaxy/quantum-level-event glow.\nEach row specifies a concept, its shape, and theories nested inside it (with their shapes):\nInformation: dodecahedron; Quantum Mechanics(cube), Holographic Principal(hologram).\nInterconnectedness: torus; Quantum Entanglement(interlocking spheres), Synchronicity(two arrows).\nHierarchical Organization: fractal tree; String Theory(vibrating string), Complex Systems Theory(network).\nEvolution and Adaptability: DNA helix; Natural Selection(tree of life), Neural Plasticity(brain).\nSubjectivity and Objectivity: yin-yang; Panpsychism(eye), Copenhagen Interpretation(wave-particle duality)."
+  }
+}
